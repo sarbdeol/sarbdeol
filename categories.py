@@ -22,10 +22,11 @@ main=['Tiptree',
     'Tollsbery', 
     'Bardfield',
     'Stock',
-    'Terling',
-    'Riyne',
+    # 'Terling',
+    'Rayne',
     'Mayflower',
     'Notley'
+    'Frailty'
     ]
 def mailsent(message_body, recipient_email, attachment_path):
     smtp_server = 'smtp.gmail.com'
@@ -93,6 +94,7 @@ options = Options()
 # Set a common window size
 options.add_argument("--headless")
 # options.headless = True
+options.add_argument('--no-sandbox')  # Bypass OS security model
 options.add_argument("--window-size=1920,1080")
 # Initialize ChromeDriver with the specified options1
 from selenium.webdriver.chrome.service import Service
@@ -176,43 +178,8 @@ def check_openings():
                             attachment_path = 'triptree.png'  # Replace with the path to your screenshot
                             driver.save_screenshot(attachment_path)
                             mailsent(message_body, recipient_email, attachment_path)
-                            # if day.text.lower()=='monday' and i.lower()=='tiptree' and check_time>=17:
-                            #     print('monday and tiptree')
-                            #     message_body = "monday and tiptree"
-                            #     time.sleep(1)
-                            #     print(count)
-                            #     book_button = WebDriverWait(driver, 15).until(
-                            #         EC.presence_of_all_elements_located((By.XPATH, "//button[contains(text(), 'Book')]"))
-                            #     )
-                                
-                            #     # Click the button
-                            #     book_button[count].click()
-                            #     print("click book button")
-                            #     button = WebDriverWait(driver, 10).until(
-                            #         EC.element_to_be_clickable((By.XPATH, ".//button[contains(text(), 'Book Bank')]"))
-                            #     )
-
-                            #     # Click the button
-                            #     button.click()
-                            #     print('booked')
-                                
-                            #     time.sleep(2)
-                            #     attachment_path = 'job_book.png'  # Replace with the path to your screenshot
-                            #     driver.save_screenshot(attachment_path)
-                            #     mailsent(message_body, recipient_email, attachment_path)
-                            #     time.sleep(1)
-                            #     bookpop=driver.find_element(By.XPATH,'//div[@class="booking-confirmation-dialog"]').text
-                            #     write_to_csv('bookpop2.csv', [bookpop])
-                            #     buttonclose = WebDriverWait(driver, 10).until(
-                            #         EC.element_to_be_clickable((By.XPATH, ".//button[contains(text(), 'Close')]"))
-                            #     )
-
-                            #     # Click the button
-                            #     buttonclose.click()
                             
-                            #     time.sleep(1)
-                            
-                            if day.text.lower()=='sunday' or day.text.lower()=='saturday' :
+                            if day.text.lower()=='sunday' or day.text.lower()=='saturday' and check_time>=17:
                                 print('weekoff')
                                 time.sleep(1)
                                 print(count)
