@@ -22,7 +22,7 @@ I'm a skilled **Backend Developer** with deep expertise in building scalable ser
 - 🐍 Web scraping automation with Scrapy and custom tools
 - 💡 Designing efficient microservices and distributed systems
 - 💬 Ask me about backend development, APIs, AI integration, automation, and data pipelines
-- 📫 **Email**: [your.email@example.com](mailto:your.email@example.com)
+- 📫 **Email**: [sarbtech123@gmail.com](mailto:sarbtech123@gmail.com)
 
 ---
 
