@@ -86,37 +86,37 @@ I'm a skilled **Backend Developer** with deep expertise in building scalable ser
 
 ## 📂 Featured Projects
 
-### 🤖 [AI-Powered Automation Platform](https://github.com/sarbdeol/ai-automation-platform)
+### 🤖 [AI-Powered Automation Platform]
 Intelligent automation solution combining AI/ML with backend APIs, featuring ChatGPT integration, Make.com/Zapier workflows, and real-time processing.
 
 **Tech:** Python, FastAPI, OpenAI API, PostgreSQL, Celery | **Features:** AI Chatbot Integration, Automated Workflows, Real-time Processing, Scalable Architecture
 
-### 🔗 [Intelligent API Integration Hub](https://github.com/sarbdeol/api-integration-hub)
+### 🔗 [Intelligent API Integration Hub]
 Unified backend system for managing and orchestrating multiple third-party APIs with AI-driven data processing and automation pipeline support.
 
 **Tech:** Python, FastAPI, LangChain, MongoDB, Redis | **Features:** Multi-API Management, AI Processing, Webhook Support, Rate Limiting, Async Operations
 
-### 🕷️ [Advanced Backend Scraping & Processing](https://github.com/sarbdeol/backend-scraping-pipeline)
+### 🕷️ [Advanced Backend Scraping & Processing]
 Enterprise-grade web scraping backend with Scrapy, AI data enrichment, and integration with Make.com/n8n automation workflows.
 
 **Tech:** Scrapy, Python, PostgreSQL, FastAPI | **Features:** Distributed Scraping, AI Data Enrichment, Webhook Integration, Error Handling, Data Validation
 
-### ⚙️ [n8n Workflow Automation Hub](https://github.com/sarbdeol/n8n-workflows)
+### ⚙️ [n8n Workflow Automation Hub]
 Comprehensive collection of n8n custom nodes and workflows for complex automation scenarios combining APIs, databases, and AI services.
 
 **Tech:** n8n, JavaScript, Node.js, Docker | **Features:** Custom Nodes, Complex Workflows, Multi-API Orchestration, Error Handling, Monitoring
 
-### 🤖 [Make.com/Zapier Integration Solutions](https://github.com/sarbdeol/automation-platform-integrations)
+### 🤖 [Make.com/Zapier Integration Solutions]
 Pre-built automation templates and custom integrations for Make.com and Zapier with backend support for complex business logic.
 
 **Tech:** Make.com, Zapier, Python Backend, FastAPI | **Features:** Pre-built Templates, Custom Modules, Webhook Handlers, Data Transformation
 
-### 🧠 [AI-Driven Data Pipeline](https://github.com/sarbdeol/ai-data-pipeline)
+### 🧠 [AI-Driven Data Pipeline]
 Scalable backend system for processing, enriching, and analyzing data using machine learning models with real-time automation capabilities.
 
 **Tech:** Python, TensorFlow, FastAPI, Celery, PostgreSQL | **Features:** ML Model Integration, Data Processing, Real-time Analysis, Automated Workflows, Monitoring
 
-### 🌐 [Backend Microservices Architecture](https://github.com/sarbdeol/microservices-backend)
+### 🌐 [Backend Microservices Architecture]
 Distributed backend system with multiple microservices, AI integration, task scheduling, and support for Make.com/n8n automation orchestration.
 
 **Tech:** Python, FastAPI, Docker, Kubernetes, PostgreSQL | **Features:** Microservices, API Gateway, Async Processing, Load Balancing, Service Discovery
