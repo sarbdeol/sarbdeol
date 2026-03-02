@@ -1,4 +1,4 @@
-# Hello, I'm Sarbjit 👋
+# Hello, I'm Sarabjit 👋
 
 <div align="center">
   <p>
